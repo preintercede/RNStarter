@@ -16,7 +16,7 @@ const TextScreen = () => {
             />
 
 
-        {password.length < 4 ? <Text>Password must be at least 4 characters</Text> : null}
+        {password.length < 4 ? <Text>Password must be at least 4 characters.</Text> : null}
         </View>
     )
 }
